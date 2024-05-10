@@ -7,7 +7,7 @@ const isChecked = ref(true)
 </script>
 <template>
     <ul>
-        <li v-for="(user, index) in users" :key="index">{{ index }}{{ user }}</li>
+        <li v-for="(user, index) in users" :key="index">{{ index }} {{ user }}</li>
     </ul>
     <input type="checkbox" id="check" v-model="isChecked">
     <label for="check">Pinchame</label>
